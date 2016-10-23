@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="info.xsl"?>
+
+<info>
+	<pic>Photos\SB.jpg</pic>
+	<style>symphonic prog</style>
+	<style>hard prog</style>
+	<yearstart>1995</yearstart>
+	<influence>The Beatles</influence>
+	<influence>Genesis</influence>
+	<influence>Gentle Giant</influence>
+	<member>
+		<name>Neal Morse</name>
+		<instrument>vocals</instrument>
+		<instrument>guitars</instrument>
+		<instrument>keyboards</instrument>
+		<born>June 17th, 1962</born>
+	</member>
+	<member>
+		<name>Dave Meros</name>
+		<instrument>bass</instrument>
+		<instrument>french horns</instrument>
+	</member>
+	<story>
+		The band formed in USA ...
+	</story>
+</info>
