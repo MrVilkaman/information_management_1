@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tracklists.xsl"?>
+
+<tracklists>
+    <tracklist src="covers\SB_Light.jpg">
+       <title>The Light</title>
+       <track>
+          <song>The Light</song>
+          <min>15</min>
+          <sec>32</sec>
+       </track>
+       <track>
+          <song>Go The Way You Go</song>
+          <min>12</min>
+          <sec>07</sec>
+       </track>
+       <track>
+          <song>The Water</song>
+          <min>23</min>
+          <sec>10</sec>
+       </track>
+       <track>
+          <song>On The Edge</song>
+          <min>6</min>
+          <sec>11</sec>
+       </track>
+    </tracklist>
+    <tracklist src="covers\SB_Beware.jpg">
+       <title>Beware Of Darkness</title>
+       <track>
+          <song>Beware Of Darkness</song>
+          <min>5</min>
+          <sec>43</sec>
+       </track>
+       <track>
+          <song>Thoughts</song>
+          <min>7</min>
+          <sec>10</sec>
+       </track>
+       <track>
+          <song>The Doorway</song>
+          <min>11</min>
+          <sec>35</sec>
+       </track>
+       <track>
+          <song>Chataqua</song>
+          <min>2</min>
+          <sec>50</sec>
+       </track>
+      <track>
+        <song>Walking On The Wind</song>
+        <min>9</min>
+        <sec>09</sec>
+      </track>
+      <track>
+        <song>Waste Away</song>
+        <min>5</min>
+        <sec>21</sec>
+      </track>
+      <track>
+        <song>Time Has Come</song>
+        <min>16</min>
+        <sec>22</sec>
+      </track>
+    </tracklist>
+</tracklists>
