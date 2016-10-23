@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+		   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="catalog" type="catalogType"/>
+	<xs:complexType name="discType">
+		<xs:sequence>
+			<xs:element type="xs:ID"  name="ID"/>
+			<xs:element type="albumType" name="album"/>
+			<xs:element type="ReleaseYearType" name="ReleaseYear"/>
+			<xs:element name="Rate">
+				<xs:simpleType>
+					<xs:restriction base="xs:float">
+						<xs:minInclusive value="1.0"/>
+						<xs:maxInclusive value="5.0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element type="xs:positiveInteger" name="Price"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="catalogType">
+		<xs:sequence>
+			<xs:element type="performerType" name="performer" maxOccurs="unbounded" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="albumType">
+		<xs:simpleContent>
+			<xs:attribute type="sidesType" name="sides"/>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="performerType">
+		<xs:sequence>
+			<xs:element name="name">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Flower Kings"/>
+						<xs:enumeration value="Beardfish"/>
+						<xs:enumeration value="Spock's Beard"/>
+						<xs:enumeration value="Hamadryad"/>
+						<xs:enumeration value="RPWL"/>
+						<xs:enumeration value="Mangala Vallis"/>
+						<xs:enumeration value="Kayak"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="desc" minOccurs="0"/>
+			<xs:element name="info" minOccurs="0"/>
+			<xs:element name="country">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="Sweden"/>
+						<xs:enumeration value="USA"/>
+						<xs:enumeration value="Canada"/>
+						<xs:enumeration value="Germany"/>
+						<xs:enumeration value="Italy"/>
+						<xs:enumeration value="Netherlands"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element type="discType" name="disc" maxOccurs="unbounded" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="sidesType">
+		<xs:restriction>
+			<xs:enumeration value="double"/>
+			<xs:enumeration value="single"/>
+			<xs:enumeration value="triple"/>
+		</xs:restriction>
+	</xs:complexType>
+	<xs:simpleType name="ReleaseYearType">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:totalDigits value="4" fixed="true"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

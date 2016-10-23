@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog.xsd">
+  <performer>
+    <name>Flower Kings</name>
+    <desc>FK.xml</desc>
+    <info>FK_info.xml</info>
+    <country>Sweden</country>
+    <disc>
+      <ID>10</ID>
+      <album sides="double">Paradox Hotel</album>
+      <ReleaseYear>20210</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>70</Price>
+    </disc>
+    <disc>
+      <ID>11</ID>
+      <album sides="single">Adam And Eve</album>
+      <ReleaseYear>204</ReleaseYear>
+      <Rate>4.8</Rate>
+      <Price>30</Price>
+    </disc>
+    <disc>
+      <ID>12</ID>
+      <album sides="double">Sum Of No Evil</album>
+      <ReleaseYear>2007</ReleaseYear>
+      <Rate>4.8</Rate>
+      <Price>30</Price>
+    </disc>
+    <disc>
+      <ID>15</ID>
+      <album sides="double">Stardust We Are</album>
+      <ReleaseYear>1997</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>60</Price>
+    </disc>
+    <disc>
+      <ID>16</ID>
+      <album sides="single">Space Revolver</album>
+      <ReleaseYear>2000</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>30</Price>
+    </disc>
+    <disc>
+      <ID>17</ID>
+      <album sides="double">Unfold The Future</album>
+      <ReleaseYear>2002</ReleaseYear>
+      <Rate>3.9</Rate>
+      <Price>54</Price>
+    </disc>
+  </performer>
+  <performer>
+    <name>Beardfish</name>
+    <desc>Beardfish.xml</desc>
+    <country>Sweden</country>
+    <disc>
+      <ID>18</ID>
+      <album sides="double">A Sane Day</album>
+      <ReleaseYear>2005</ReleaseYear>
+      <Rate>3.0</Rate>
+      <Price>60</Price>
+    </disc>
+    <disc>
+      <ID>19</ID>
+      <album sides="single">Sleeping In Traffic, Pt.1</album>
+      <ReleaseYear>2007</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>30</Price>
+    </disc>
+    <disc>
+      <ID>20</ID>
+      <album sides="single">Sleeping In Traffic, Pt.2</album>
+      <ReleaseYear>2008</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>30</Price>
+    </disc>
+  </performer>
+  <performer>
+    <name>Spock's Beard</name>
+    <desc>Spock's Beard.xml</desc>
+    <info>SB_info.xml</info>
+    <country>USA</country>
+    <disc>
+      <ID>1</ID>
+      <album sides="single">The Light</album>
+      <ReleaseYear>1995</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>50</Price>
+    </disc>
+    <disc>
+      <ID>2</ID>
+      <album sides="single">Beware Of Darkness</album>
+      <ReleaseYear>1996</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>30</Price>
+    </disc>
+    <disc>
+      <ID>3</ID>
+      <album sides="single">Day For Night</album>
+      <ReleaseYear>1999</ReleaseYear>
+      <Rate>4.8</Rate>
+      <Price>30</Price>
+    </disc>
+    <disc>
+      <ID>4</ID>
+      <album sides="double">Snow</album>
+      <ReleaseYear>2002</ReleaseYear>
+      <Rate>4.9</Rate>
+      <Price>60</Price>
+    </disc>
+    <disc>
+      <ID>5</ID>
+      <album sides="single">Kindness Of Strangers</album>
+      <ReleaseYear>1998</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>50</Price>
+    </disc>
+    <disc>
+      <ID>6</ID>
+      <album sides="single">V</album>
+      <ReleaseYear>1999</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>30</Price>
+    </disc>
+  </performer>
+  <performer>
+    <name>Hamadryad</name>
+    <country>Canada</country>
+    <disc>
+      <ID>40</ID>
+      <album sides="single">Conservation Of Mass</album>
+      <ReleaseYear>2001</ReleaseYear>
+      <Rate>4.2</Rate>
+      <Price>27</Price>
+    </disc>
+    <disc>
+      <ID>41</ID>
+      <album sides="single">Safe In Conformity</album>
+      <ReleaseYear>2005</ReleaseYear>
+      <Rate>4.5</Rate>
+      <Price>27</Price>
+    </disc>
+  </performer>
+  <performer>
+    <name>RPWL</name>
+    <country>Germany</country>
+    <disc>
+      <ID>41</ID>
+      <album sides="single">Stock</album>
+      <ReleaseYear>2003</ReleaseYear>
+      <Rate>4.0</Rate>
+      <Price>30</Price>
+    </disc>
+  </performer>
+  <performer>
+    <name>Mangala Vallis</name>
+    <country>Italy</country>
+    <disc>
+      <ID>43</ID>
+      <album sides="single">The Book Of Dreams</album>
+      <ReleaseYear>2002</ReleaseYear>
+      <Rate>4.3</Rate>
+      <Price>27</Price>
+    </disc>
+  </performer>
+  <performer>
+    <name>Kayak</name>
+    <country>Netherlands</country>
+    <disc>
+      <ID>44</ID>
+      <album sides="single">Coming Up For Air</album>
+      <ReleaseYear>2008</ReleaseYear>
+      <Rate>4.4</Rate>
+      <Price>27</Price>
+    </disc>
+    <disc>
+      <ID>45</ID>
+      <album sides="single">Kayak</album>
+      <ReleaseYear>1974</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>35</Price>
+    </disc>
+    <disc>
+      <ID>46</ID>
+      <album sides="single">The Last Encore</album>
+      <ReleaseYear>1976</ReleaseYear>
+      <Rate>5.0</Rate>
+      <Price>27</Price>
+    </disc>
+  </performer>
+</catalog>
